@@ -1,5 +1,11 @@
-<footer class="footer mt-5 py-3 bg-light fixed-bottom">
+<footer>
     <div class="container">
-      <span class="text-muted">Copyright &copy; 2021 Nusantara. All rights reserved.</span>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="inner-content">
+              <p>Copyright &copy; 2022 Nusantara Shop</p>
+          </div>
+        </div>
+      </div>
     </div>
 </footer>
