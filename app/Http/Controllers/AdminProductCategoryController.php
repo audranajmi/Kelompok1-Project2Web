@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use App\Models\ProductCategory;
 use Cviebrock\EloquentSluggable\Services\SlugService;
 use Illuminate\Http\Request;
