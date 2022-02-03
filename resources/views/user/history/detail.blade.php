@@ -32,7 +32,7 @@
                         <td>{{ $no++ }}</td>
                         <td>
                             @if ($order_detail->product->image)
-                                <img src="{{ asset('storage/' . $order_detail->product->image) }}" alt="{{ $order_detail->product->slug }}" class="img-fluid">
+                                <img src="{{ asset('storage/' . $order_detail->product->image) }}" alt="{{ $order_detail->product->slug }}" class="rounded" style="width: 80px; height: 80px;">
                             @else
                                 <img src="/assets/images/no-image-product.png" alt="{{ $order_detail->product->slug }}" class="rounded" style="width: 80px;">
                             @endif
